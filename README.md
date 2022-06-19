@@ -1,41 +1,18 @@
 # Java Desktop Application 
 
-If the user forgets his password on the login screen, he can go to the password reset screen and reset his password with the verification code that will be sent to his e-mail address.
-A code is sent to the e-mail address of the user who forgets his password on the password renewal screen. 
-The verification code is tied to a one-hour timer. No new verification code will come before one hour is up..Once the sent code is confirmed, a new password can be created.
+I created the sales management project to make sales management even easier.
 
+If the user forgets his password on the login screen, he can go to the password reset screen and reset his password with the verification code that will be sent to his e-mail address.The verification code is tied to a one-hour timer. No new verification code will come before one hour is up. Then the user will be able to log in.
 
-
-The user registered on the login screen can log in with the registered email address and password in the database.After logging in with the correct e-mail address and password, the system is logged in. User can add, delete, edit customers on the first page. The requirement that the added customer's email address or phone be unique was also checked. A warning message is returned to the user. If any sale has been made to the selected customer, the customer is not allowed to be deleted.
-
-
+When you log in to the application, the main page will appear. The homepage consists of tabs for customers, category management, product management, sales management, reports and user settings.
 
 On the Customers tab,Category management tab ,Product management tab ,You can add, edit and delete . But if there are sales in the customer, product, category, you can't delete them.You cannot register with the same phone number and email when adding a customer.While adding or updating products, number checks were made at the purchase price, stock quantity, sale price.
 
+On the Sales Management tab, the user selects the customer to whom we want to add sales from the search bar. When the customer is selected, the categories are active. We can choose the product from the category we want and add it to our cart as much as the quantity.To delete the product from the customer basket table, we can click on the product and delete the products in our basket with remove from.The user completes the sale with the comlete sale button.Or, with the Cancel button, a different customer can be selected, but the products of the before customer in the customer basket table are not deleted, and the sale can be completed later.
 
+On the Reports tab, there are the carts whose sale has been completed.You can search by product, customer, category and time.Table is not populated without searching with the search bar.Reports can be converted to pdf.Net profit of all time is at the bottom of the page.
 
-After logging in with the correct e-mail address and password, the system is logged in. User can add, delete, edit customers on the first page. The requirement that the added customer's email address or phone be unique was also checked. A warning message is returned to the user. If any sale has been made to the selected customer, the customer is not allowed to be deleted.
-
-
-
-In category operations, any category can be added, updated and deleted. Non-empty control operations and warning messages are also given.
-
-
-On the product page, the user can perform the necessary additions, deletions and updates regarding the product. Data type validation is done here.
-
-
-
-In sales management, the user is provided to select the customer first. As soon as the customer is selected, the category box becomes active. When the category is selected, the products belonging to that category are selected from the product table. The number of spinner components to be sold from the selected product is modeled according to the stock amount of the selected product. The number is selected and then the add to cart button is clicked and the product is listed in the cart table. This is repeated for different categories and different products. If desired, the product can be deleted from the cart. When adding to the cart and removing it from the cart, the cart is completed, the sell button is pressed and the sale is completed. Messages are cleared and made available for the new client.
-
-
-
-
-On the report page, the sales data of the desired date can be accessed according to the desired parameter. The model of the table is linked to the corresponding search text box. By pressing the pdf button, the table on the screen is converted to a pdf file. Details of sales are included in this pdf. General profit and loss information is in the lower left corner. This information is updated with each new sale.
-
-
-
-
-In the user settings section, the user can create a new password by changing the old password.
+On the User Settings tab, you can change your existing password.
 
 
 
